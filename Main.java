@@ -36,13 +36,13 @@ public class Main {
         }
 
         // Define valor do m2 a partir da área construída
-        if (aConstruida <= 50) {
+        if (aConstruida <= 60) {
             valConstruida = 0.00;
         } else {
-            if (aConstruida > 50 && aConstruida <= 75) {
+            if (aConstruida > 60 && aConstruida <= 80) {
                 valConstruida = 0.15;
             } else {
-                if (aConstruida > 75 && aConstruida <= 95) {
+                if (aConstruida > 80 && aConstruida <= 100) {
                     valConstruida = 0.35;
                 } else {
                     valConstruida = 0.45;
