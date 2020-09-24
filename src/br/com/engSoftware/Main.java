@@ -33,7 +33,7 @@ public class Main {
 
 		main.definirValorTerreno();
 
-		main.definirValorTerreno();
+		main.definirValorAreaConstruida();
 
 		main.calcularIptu();
 		
